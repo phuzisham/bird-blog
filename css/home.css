@@ -31,7 +31,7 @@ ul.topNav li {
 
 ul.topNav li a {
   display: inline-block;
-  color: #D7D8DC;
+  color: #818160;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
@@ -44,7 +44,7 @@ ul.topNav li a:hover {
 }
 
 header h1 {
-  color: #D7D8DC;
+  color: #818160;
   float: right;
   margin-right: 30px;
   margin-top: -40px;

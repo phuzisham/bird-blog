@@ -2,7 +2,7 @@ body {
   background-color: #3A381F;
   background-position: top;
   color: #D7D8DC;
-  font-family: "vollkorn";
+  font-family: "vollkorn"; 
 }
 
 header {
@@ -10,9 +10,10 @@ header {
   width: 100%;
   z-index: 1;
   overflow: hidden;
-  margin-left: -10px;
-  margin-top: -10px;
-  margin-bottom: 30px;
+  //margin-left: -10px;
+  //margin-top: -10px;
+  //margin-bottom: 30px;
+  margin: -10px -5px 30px -10px;
 }
 
 ul.topNav {
@@ -29,7 +30,7 @@ ul.topNav li {
 
 ul.topNav li a {
   display: inline-block;
-  color: #D7D8DC;
+  color: #818160;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
@@ -42,7 +43,7 @@ ul.topNav li a:hover {
 }
 
 header h1 {
-  color: #D7D8DC;
+  color: #818160;
   float: right;
   margin-right: 30px;
   margin-top: -40px;
@@ -50,6 +51,11 @@ header h1 {
 img{
   max-width: 50%;
   padding: 20px;
+}
+
+.column {
+  width: 40%;
+  float: left;
 }
 .left{
   float: left;
@@ -59,6 +65,7 @@ img{
 }
 
 p {
-  padding-top: 60px;
-  max-width: 40%;
+  font-size: 18pt;
+  padding: 20px;
+  max-width: 80%;
 }
