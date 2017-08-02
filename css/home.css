@@ -1,0 +1,56 @@
+body {
+  background-image: url("bird1.jpg");
+  background-repeat: no-repeat;
+  background-color: #3A381F;
+  background-position: top;
+  color: #D7D8DC;
+  font-family: "vollkorn";
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+  margin-left: -10px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+ul.topNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D9AB88;
+}
+
+ul.topNav li {
+  float: left;
+}
+
+ul.topNav li a {
+  display: inline-block;
+  color: #D7D8DC;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 21px;
+}
+
+ul.topNav li a:hover {
+  background-color: #3A381F;
+}
+
+header h1 {
+  color: #D7D8DC;
+  float: right;
+  margin-right: 30px;
+  margin-top: -40px;
+}
+
+h2 {
+  padding-top: 30px;
+  text-align: center;
+}
